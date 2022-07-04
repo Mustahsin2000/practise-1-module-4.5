@@ -1,0 +1,33 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+}
+.head-left{
+    width: 40%;
+    padding: 100px;
+}
+.head-right{
+    width: 60%;
+}
+.head-right img{
+    height: 90%;
+    width: 90%;
+}
+.head-left a{
+    text-decoration: none;
+    background-image: linear-gradient(blue,lightblue);
+    padding: 10px 30px;
+    color: white;
+    border-radius: 40px;
+    font-weight: 700;
+}
+.head-left span{
+    color:rgb(50, 50, 211);
+}
+.head-left h1{
+    font-size: 40px;
+}
